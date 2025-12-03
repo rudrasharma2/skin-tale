@@ -1,278 +1,318 @@
-# SkinTale Support
+# Privacy Policy for SkinTale
 
-## About SkinTale
+**Last Updated:** December 2025
 
-SkinTale is an AI-powered skin analysis application that helps you understand and improve your skin health. Using advanced artificial intelligence, SkinTale analyzes your facial skin and provides personalized skincare recommendations.
+## Introduction
 
-### Key Features
+Welcome to SkinTale ("we," "our," or "us"). We are committed to protecting your privacy and ensuring transparency about how we handle your data. This Privacy Policy explains what information we collect, how we use it, and your rights regarding your personal information.
 
-- **AI Skin Analysis**: Comprehensive analysis of 6 key skin metrics
-- **Weekly Reports**: Track your skin progress over time with beautiful report cards
-- **Personalized Routines**: Customized AM and PM skincare recommendations
-- **Facial Analysis**: Detailed insights about your skin type, tone, and features
-- **Local Storage**: Your scan history is saved securely on your device
+By using SkinTale, you agree to the collection and use of information in accordance with this policy.
 
-## Contact Support
+## Information We Collect
 
-For questions, feedback, or assistance, please contact us:
+### Photos and Images
 
-**Email**: rudrasharma@duck.com
+**What We Collect:**
+- Facial photographs that you capture using the app's camera feature
 
-We typically respond within 24-48 hours. Please include details about your issue and device information for faster support.
+**How We Use It:**
+- Your photos are sent to OpenAI's secure API for AI-powered skin analysis
+- Images are processed to generate skin health metrics, personalized recommendations, and skincare routines
+- Photos and analysis results are stored locally on your device only
 
----
+**Important Notes:**
+- We do not store your photos on our servers
+- We do not maintain a database of user images
+- Your photos are only sent to OpenAI during active skin analysis
+- OpenAI processes images in real-time and does not permanently store them beyond what's necessary for processing
+- All medical information provided includes citations to reputable sources when available
 
-## Getting Started
+### Analysis Results
 
-### Taking Your First Skin Scan
+**What We Store:**
+- Skin analysis results (scores for 6 skin metrics)
+- Personalized skincare routine recommendations
+- Weekly progress reports
+- Scan history and timestamps
 
-1. Open SkinTale and grant camera permissions when prompted
-2. Position your face within the on-screen guide
-3. Ensure good, even lighting (natural light works best)
-4. Keep your face centered and look directly at the camera
-5. Tap the capture button to take your photo
-6. Wait a few moments while AI analyzes your skin
+**Where It's Stored:**
+- All analysis results are stored locally on your device using secure local storage (SharedPreferences)
+- No analysis data is transmitted to our servers
+- Data remains on your device and under your control
 
-### Tips for Best Results
+### Information We Do NOT Collect
 
-- **Lighting**: Use natural daylight or bright, even lighting
-- **Clean Face**: Remove makeup for most accurate analysis
-- **Position**: Keep face centered in the frame guide
-- **Distance**: Hold phone at arm's length
-- **Consistency**: Take scans at the same time of day for tracking progress
+We want to be clear about what we don't collect:
 
----
+- ❌ Name, email address, or phone number
+- ❌ User accounts or login credentials
+- ❌ Device identifiers (IDFA, Android ID, etc.)
+- ❌ Location data (GPS, IP address)
+- ❌ Contacts or address book information
+- ❌ Usage analytics or behavior tracking
+- ❌ Crash reports or diagnostic data
+- ❌ Browsing history or app usage patterns
+- ❌ Any personal information beyond photos for analysis
 
-## Features Explained
+## How We Use Your Information
 
-### Six Skin Metrics
+### Primary Purpose: App Functionality
 
-**Eye Bags**
-Detects puffiness and dark circles under the eyes. Scores range from 0-100, with higher scores indicating healthier, less puffy skin.
+Your photos are used exclusively for:
 
-**Acne**
-Identifies blemishes, pimples, and breakouts. Higher scores indicate clearer skin with fewer blemishes.
+1. **AI Skin Analysis** - Generating comprehensive skin health assessments
+2. **Personalized Recommendations** - Creating customized skincare routines based on your skin condition
+3. **Progress Tracking** - Enabling you to monitor skin health improvements over time
 
-**Wrinkles**
-Assesses fine lines and signs of aging. Higher scores indicate smoother skin with fewer visible wrinkles.
+### We Do NOT Use Your Data For:
 
-**Sagging**
-Evaluates skin firmness and elasticity. Higher scores indicate firmer, more elastic skin.
+- ❌ Advertising or marketing purposes
+- ❌ Selling or sharing with third parties (except OpenAI for processing)
+- ❌ User profiling or behavioral analysis
+- ❌ Cross-app tracking
+- ❌ Any purpose other than providing skin analysis functionality
 
-**Hydration**
-Checks skin moisture levels and texture. Higher scores indicate well-hydrated, healthy-looking skin.
+## Third-Party Services
 
-**Pigmentation**
-Analyzes dark spots and uneven skin tone. Higher scores indicate more even skin tone.
+### OpenAI Integration
 
-### Weekly Reports
+SkinTale uses OpenAI's ChatGPT API (GPT-4 Vision) to analyze your facial images and generate skin health insights.
 
-Track your skin health progress with weekly report cards that show:
-- Average scores for all six metrics
-- Trends and improvements over time
-- Visual progress tracking
+**What Happens:**
+1. When you take a photo, it is converted to base64 format
+2. The encoded image is sent to OpenAI's secure API endpoint
+3. OpenAI's AI analyzes the image and returns skin health metrics
+4. The results are displayed in the app and saved locally on your device
 
-### Personalized Skincare Routines
+**OpenAI's Data Practices:**
+- OpenAI processes images to provide analysis results
+- Images are not used to train OpenAI's models (per API terms)
+- Data is processed in accordance with OpenAI's privacy policy
+- For more information, please review: [OpenAI Privacy Policy](https://openai.com/policies/privacy-policy)
 
-Based on your skin analysis, SkinTale creates:
-- **AM Routine**: 7-step morning skincare routine
-- **PM Routine**: 7-step evening skincare routine
-- Product recommendations tailored to your specific skin concerns
+**Important:** We have no control over OpenAI's data practices. By using SkinTale, you acknowledge that your images will be processed by OpenAI in accordance with their privacy policy.
 
-### Facial Analysis
+### No Other Third-Party Services
 
-In addition to skin metrics, SkinTale provides:
-- Skin type identification (oily, dry, combination, normal)
-- Skin tone description with undertones
-- Eye characteristics
-- Face shape analysis
+SkinTale does not integrate with:
+- Analytics services (Google Analytics, Firebase, etc.)
+- Advertising networks
+- Social media platforms
+- Data brokers or marketing services
+- Any other third-party SDKs or services
 
----
+## Data Storage and Security
 
-## Troubleshooting & FAQs
+### Local Storage Only
 
-### Camera and Permissions
+- All your scan history, photos, and analysis results are stored exclusively on your device
+- We do not maintain servers or databases that store your personal data
+- Your data remains under your control at all times
 
-**Q: The app says it needs camera permission. Why?**
-A: SkinTale needs camera access to capture photos of your face for skin analysis. Without camera permission, the app cannot perform its core function.
+### Security Measures
 
-**Q: I denied camera permission. How do I enable it?**
-A: Go to Settings > Privacy & Security > Camera > SkinTale, and toggle the permission on. Then restart the app.
+While we implement reasonable security measures, please note:
+- Data stored on your device is protected by your device's security features (passcode, biometric authentication, etc.)
+- Images transmitted to OpenAI are sent over secure HTTPS connections
+- We recommend keeping your device secure with a strong passcode
 
-**Q: Why does the app need photo library access?**
-A: Photo library access allows you to save your scan results and access previously saved analyses.
+### Data Retention
 
-### Analysis Issues
+- Your scan history and photos remain on your device until you delete them
+- You can delete individual scans or all data at any time within the app
+- Uninstalling the app removes all locally stored data from your device
 
-**Q: The analysis is taking too long or failing.**
-A: This may be due to:
-- Poor internet connection (required for AI analysis)
-- Server issues with OpenAI
-- Very large image file size
+## Your Privacy Rights
 
-Try these steps:
-1. Check your internet connection
-2. Ensure you have a stable WiFi or cellular connection
-3. Restart the app and try again
-4. If the issue persists, contact support
+### Access and Control
 
-**Q: The results don't seem accurate.**
-A: Analysis accuracy depends on:
-- Photo quality and lighting
-- Camera angle and distance
-- Makeup or filters on the face
-- Image clarity
+You have complete control over your data:
 
-For best results, follow the "Tips for Best Results" section above.
+- **View Your Data** - Access all your scan history and analysis results within the app
+- **Delete Your Data** - Remove individual scans or all data at any time
+- **Export Limitation** - Currently, export functionality is not available, but your data remains accessible on your device
 
-### How the AI Works
+### California Privacy Rights (CCPA)
 
-**Q: How does SkinTale analyze my skin?**
-A: SkinTale uses OpenAI's advanced GPT-4 Vision AI technology to analyze facial images. The AI has been trained to identify various skin conditions and characteristics based on visual analysis.
+If you are a California resident, you have the right to:
+- Know what personal information is collected
+- Know whether personal information is sold or disclosed
+- Opt-out of the sale of personal information (Note: We do not sell personal information)
+- Request deletion of personal information
+- Non-discrimination for exercising your privacy rights
 
-**Q: Is the analysis as accurate as a dermatologist?**
-A: No. SkinTale provides informational insights about your skin but is not a substitute for professional medical advice. Always consult a dermatologist for medical concerns.
+### European Privacy Rights (GDPR)
 
-**Q: Can I trust the AI recommendations?**
-A: The AI provides general skincare guidance based on detected skin characteristics. However, everyone's skin is unique. Consider the recommendations as a starting point and adjust based on what works for you.
+If you are in the European Economic Area (EEA), you have the right to:
+- Access your personal data
+- Rectify inaccurate personal data
+- Request erasure of your personal data
+- Restrict processing of your personal data
+- Data portability
+- Object to processing of your personal data
 
-### Privacy and Data
+**Note:** Since all data is stored locally on your device, you already have full control over accessing, modifying, and deleting your data.
 
-**Q: Where are my photos stored?**
-A: Your scan history and photos are stored locally on your device only. We do not store your images on any external servers.
+## Children's Privacy
 
-**Q: Are my photos sent anywhere?**
-A: Yes, during analysis, your photo is sent to OpenAI's secure API for processing. The image is processed in real-time and is not permanently stored by OpenAI beyond what's necessary for processing. See OpenAI's privacy policy for details: https://openai.com/policies/privacy-policy
+SkinTale is not intended for use by children under the age of 13. We do not knowingly collect personal information from children under 13. If you are a parent or guardian and believe your child has provided us with personal information, please contact us, and we will take steps to delete such information.
 
-**Q: What data does SkinTale collect?**
-A: SkinTale only collects the minimum data necessary to function:
-- Photos you take for analysis (stored locally)
-- Analysis results (stored locally)
-- Technical data required for AI processing
+## Permissions Required
 
-We do not collect personal information, contact lists, location data, or other device data.
+### Camera Permission
 
-**Q: Can I delete my data?**
-A: Yes. Your scan history is stored locally on your device. You can delete individual scans within the app or uninstall the app to remove all data.
+**Why We Need It:**
+- To capture photos of your face for skin analysis
+- This is the core functionality of the app
 
-### App Issues
+**What We Do:**
+- Only access the camera when you actively take a photo
+- Do not capture photos in the background
+- Do not record video
 
-**Q: The app crashes when I try to take a photo.**
-A: Try these steps:
-1. Restart the app
-2. Restart your device
-3. Check for app updates in the App Store
-4. Ensure you have sufficient storage space
-5. Reinstall the app if the problem persists
+### Photo Library Permission
 
-**Q: I'm not seeing my weekly reports.**
-A: Weekly reports are generated after you have at least one week of scan data. Take regular scans throughout the week to see your first report.
+**Why We Need It:**
+- To allow you to save analysis results
+- To enable you to select existing photos for analysis (optional)
 
-**Q: Can I export my scan history?**
-A: Currently, export functionality is not available. Scan history is stored locally on your device.
+**What We Do:**
+- Only access photos you explicitly select
+- Do not scan or access your entire photo library
+- Do not upload photos without your action
 
----
+### Internet/Network Permission
 
-## Requirements
+**Why We Need It:**
+- To send photos to OpenAI's API for analysis
+- This is required for the AI-powered skin analysis to work
 
-### Device Requirements
+**What We Do:**
+- Only transmit data when you perform a skin analysis
+- Use secure HTTPS connections
+- Do not collect or transmit data in the background
 
-- **iOS**: iOS 12.0 or later
-- **Camera**: Front-facing camera required
-- **Storage**: Minimum 100MB free space
-- **Internet**: Active internet connection required for analysis
+## Data Not Linked to Identity
 
-### Optimal Conditions
+**Important:** The photos and data collected by SkinTale are NOT linked to your identity because:
 
-- Modern smartphone with good camera quality
-- Stable WiFi or 4G/5G connection
-- Well-lit environment
-- 2-3 feet distance from camera
+- We do not collect any identifying information (name, email, account ID, etc.)
+- We do not assign user IDs or track device identifiers
+- Images sent to OpenAI are anonymous and cannot be traced back to you
+- There is no way for us to identify who took a particular photo
 
----
+This ensures your privacy and anonymity while using SkinTale.
 
-## Privacy & Data Security
+## No Tracking
 
-### Your Privacy Matters
+SkinTale does not engage in "tracking" as defined by Apple's App Tracking Transparency framework:
 
-SkinTale is committed to protecting your privacy:
+- We do not link data collected from our app with data from other apps or websites
+- We do not share data with data brokers
+- We do not use your data for targeted advertising
+- We do not measure advertising effectiveness using your data
 
-**Local Storage**
-Your scan history, photos, and results are stored exclusively on your device. We do not maintain any servers that store your personal images or data.
+## Medical Disclaimer
 
-**OpenAI Processing**
-During skin analysis, your photo is sent to OpenAI's secure API for AI processing. This is necessary for the AI analysis to work. OpenAI processes the image and returns the analysis results. Images are not permanently stored by OpenAI beyond what's required for processing.
+**IMPORTANT:** SkinTale is for informational and educational purposes only:
 
-**No Tracking**
-We do not track your usage, collect analytics, or share your data with third parties (except OpenAI for analysis processing).
-
-**Data Deletion**
-You maintain full control of your data. Delete individual scans or uninstall the app to remove all data from your device.
-
-### Third-Party Services
-
-SkinTale uses OpenAI's API for skin analysis. Please review OpenAI's privacy policy:
-https://openai.com/policies/privacy-policy
-
-### Links to Policies
-
-- **Privacy Policy**: [Your Privacy Policy URL - to be added]
-- **Terms of Service**: [Your Terms of Service URL - to be added]
-
----
-
-## Important Disclaimers
-
-### Not Medical Advice
-
-SkinTale is for informational and educational purposes only. The app:
-
-- Does NOT diagnose medical conditions
-- Does NOT replace professional dermatological care
-- Does NOT provide medical treatment recommendations
-- Should NOT be used for self-diagnosis of skin diseases
+- The app does NOT diagnose medical conditions
+- Analysis results are NOT medical advice
+- The app does NOT replace professional dermatological care
+- Do NOT use the app for self-diagnosis of skin diseases
+- Chat responses may reference reputable sources such as the American Academy of Dermatology (aad.org) or similar organizations
+- All medical information provided includes citations to reputable sources when available
 
 If you have concerns about your skin health, please consult a qualified dermatologist or healthcare provider.
 
-### AI Limitations
+## International Data Transfers
 
-The AI analysis is based on visual assessment of photos and has limitations:
+If you use SkinTale outside the United States, please note:
+- Your photos will be transmitted to OpenAI's servers, which may be located in the United States or other countries
+- By using the app, you consent to the transfer of your data to these locations
+- OpenAI adheres to applicable data protection laws and regulations
 
-- Results may vary based on photo quality and lighting
-- Analysis accuracy depends on image clarity
-- AI cannot detect all skin conditions
-- Results are general guidance, not personalized medical advice
+## Changes to This Privacy Policy
 
-### Product Recommendations
+We may update this Privacy Policy from time to time. Changes will be reflected by updating the "Last Updated" date at the top of this policy.
 
-Skincare routine suggestions are general recommendations based on common skin concerns. Individual results may vary. Always:
+**How We'll Notify You:**
+- Updated privacy policy will be posted in the app
+- For material changes, we may provide additional notice within the app
 
-- Patch test new products
-- Consider your skin sensitivities and allergies
-- Consult professionals for specific product recommendations
-- Stop using products that cause irritation
+**Your Continued Use:**
+- Continued use of SkinTale after changes constitutes acceptance of the updated policy
+- If you do not agree with changes, please discontinue use and delete the app
 
----
+## Data Breach Notification
 
-## Version Information
+In the unlikely event of a data breach that affects your personal information:
+- We will notify affected users in accordance with applicable laws
+- We will take immediate steps to secure your data and prevent further unauthorized access
 
-**App Version**: 1.0.0
-**Last Updated**: 2025
+**Note:** Since we do not maintain servers or store your data, the risk of a data breach from our systems is minimal. Your data security primarily depends on your device's security.
 
-For the latest updates and features, keep your app updated through the App Store.
+## Your Consent
 
----
+By using SkinTale, you consent to:
+- The collection and use of information as described in this Privacy Policy
+- The transmission of your photos to OpenAI for AI-powered analysis
+- The storage of analysis results locally on your device
 
-## Feedback and Feature Requests
+## Contact Us
 
-We'd love to hear from you! Send your feedback, suggestions, or feature requests to:
+If you have questions, concerns, or requests regarding this Privacy Policy or your personal data, please contact us:
 
-**Email**: rudrasharma@duck.com
+**Email:** rudrasharma@duck.com
 
-Your input helps us improve SkinTale for everyone.
+**Response Time:** We typically respond within 24-48 hours.
+
+Please include the following in your message:
+- A clear description of your question or concern
+- Your device type (iOS/Android) and app version
+- Any relevant details that will help us assist you
+
+## Legal Compliance
+
+SkinTale complies with:
+- California Consumer Privacy Act (CCPA)
+- General Data Protection Regulation (GDPR)
+- Children's Online Privacy Protection Act (COPPA)
+- Apple App Store Privacy Guidelines
+- Other applicable privacy laws and regulations
+
+## Additional Information
+
+### No Sale of Personal Information
+
+We do not sell, rent, or trade your personal information to third parties for monetary or other valuable consideration.
+
+### No Automated Decision Making
+
+While our app uses AI to analyze your skin, these analyses are for informational purposes only and do not result in automated decisions that significantly affect you legally or similarly.
+
+### Data Minimization
+
+We practice data minimization by:
+- Only collecting data essential for app functionality
+- Not collecting unnecessary personal information
+- Storing data locally rather than on servers
+- Not tracking or profiling users
+
+## Summary
+
+**In simple terms:**
+- We only collect photos you take for skin analysis
+- Photos are sent to OpenAI for AI processing
+- All results are stored locally on your device only
+- We don't collect personal information, track you, or use data for ads
+- You have complete control over your data
+- You can delete your data anytime
 
 ---
 
 **SkinTale** - AI-powered skin analysis for healthier skin.
 
 © 2025 SkinTale. All rights reserved.
+
+This Privacy Policy is effective as of December 2025 and applies to all users of the SkinTale mobile application.
