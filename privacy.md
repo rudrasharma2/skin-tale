@@ -72,6 +72,15 @@ Your photos are used exclusively for:
 - ❌ Cross-app tracking
 - ❌ Any purpose other than providing skin analysis functionality
 
+## Payments and Subscriptions
+
+SkinTale offers paid subscription services. Please note:
+
+-   **Payment Processing:** All payments are processed securely through Apple's App Store payment system.
+-   **No Financial Data:** We do not collect, store, or have access to your credit card information or billing details.
+-   **Transaction Data:** We only receive confirmation of purchase and subscription status (active/inactive) from Apple to unlock app features.
+
+
 ## Third-Party Services
 
 ### OpenAI Integration
